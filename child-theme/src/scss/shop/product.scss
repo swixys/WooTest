@@ -1,0 +1,54 @@
+.shop {
+  .product {
+    width: 100%;
+    .product-label{
+      position: absolute;
+      left: 0;
+      &.Bestseller{
+        background: orange;
+        color: white;
+        padding: 3px;
+      }
+      &.New{
+        background: red;
+        color: white;
+        padding: 3px;
+      }
+    }
+  }
+
+  .product_container {
+    &.full {
+      ul.products.columns-4 li.product {
+        width: 100% !important;
+        flex-direction: row;
+        margin: 0 0px 16px 0px;
+        .woocommerce-loop-product__link {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          max-height: 300px;
+
+          img {
+            max-width: 300px !important;
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .sort_product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .view_product {
+    img {
+      width: 25px;
+      cursor: pointer;
+    }
+  }
+}

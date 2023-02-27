@@ -1,0 +1,236 @@
+2023-01-30T07:51:02+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in /var/www/html/wp-content/themes/child-theme/functions.php:28
+Stack trace:
+#0 /var/www/html/wp-content/themes/child-theme/functions.php(28): explode(',', Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): filter_ajax('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/child-theme/functions.php on line 28
+
+2023-01-30T07:51:32+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Term given in /var/www/html/wp-content/themes/child-theme/functions.php:30
+Stack trace:
+#0 /var/www/html/wp-content/themes/child-theme/functions.php(30): explode(',', Object(WP_Term))
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): filter_ajax('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/child-theme/functions.php on line 30
+
+2023-01-30T07:51:34+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Term given in /var/www/html/wp-content/themes/child-theme/functions.php:30
+Stack trace:
+#0 /var/www/html/wp-content/themes/child-theme/functions.php(30): explode(',', Object(WP_Term))
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): filter_ajax('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/child-theme/functions.php on line 30
+
+2023-01-30T07:51:35+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Term given in /var/www/html/wp-content/themes/child-theme/functions.php:30
+Stack trace:
+#0 /var/www/html/wp-content/themes/child-theme/functions.php(30): explode(',', Object(WP_Term))
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): filter_ajax('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/child-theme/functions.php on line 30
+
+2023-01-30T07:51:35+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Term given in /var/www/html/wp-content/themes/child-theme/functions.php:30
+Stack trace:
+#0 /var/www/html/wp-content/themes/child-theme/functions.php(30): explode(',', Object(WP_Term))
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): filter_ajax('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/child-theme/functions.php on line 30
+
+2023-01-30T07:51:39+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Term given in /var/www/html/wp-content/themes/child-theme/functions.php:30
+Stack trace:
+#0 /var/www/html/wp-content/themes/child-theme/functions.php(30): explode(',', Object(WP_Term))
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): filter_ajax('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/child-theme/functions.php on line 30
+
+2023-01-30T07:52:36+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, WP_Term given in /var/www/html/wp-content/themes/child-theme/functions.php:30
+Stack trace:
+#0 /var/www/html/wp-content/themes/child-theme/functions.php(30): explode(',', Object(WP_Term))
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): filter_ajax('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/child-theme/functions.php on line 30
+
+2023-01-30T12:19:12+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in /var/www/html/wp-content/themes/child-theme/woocommerce/archive-product.php:159
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/child-theme/woocommerce/archive-product.php on line 159
+
+2023-01-30T12:42:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_custom_addTo cart _text" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('Add to cart', Array)
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Add to cart', Object(WC_Product_Simple))
+#2 /var/www/html/wp-content/plugins/woocommerce/templates/loop/add-to-cart.php(32): WC_Product_Simple->add_to_cart_text()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1369): wc_get_template('loop/add-to-car...', Array)
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): woocommerce_template_loop_add_to_cart(Array)
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#9 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#11 /var/www/html/wp-content/themes/child-theme/woocommerce/archive-product.php(217): wc_get_template_part('content', 'product')
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-01-30T12:42:27+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_custom_addTo cart _text" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('Add to cart', Array)
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Add to cart', Object(WC_Product_Simple))
+#2 /var/www/html/wp-content/plugins/woocommerce/templates/loop/add-to-cart.php(32): WC_Product_Simple->add_to_cart_text()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1369): wc_get_template('loop/add-to-car...', Array)
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): woocommerce_template_loop_add_to_cart(Array)
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#9 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#11 /var/www/html/wp-content/themes/child-theme/woocommerce/archive-product.php(217): wc_get_template_part('content', 'product')
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-01-30T12:42:58+00:00 CRITICAL Cannot redeclare wc_custom_add_to_cart_text() (previously declared in /var/www/html/wp-content/themes/child-theme/functions.php:87) in /var/www/html/wp-content/themes/child-theme/functions.php on line 92
+
+2023-01-30T12:42:59+00:00 CRITICAL Cannot redeclare wc_custom_add_to_cart_text() (previously declared in /var/www/html/wp-content/themes/child-theme/functions.php:87) in /var/www/html/wp-content/themes/child-theme/functions.php on line 92
+
+2023-01-30T12:43:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_custom_addTo cart _text" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('Add to cart', Array)
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Add to cart', Object(WC_Product_Simple))
+#2 /var/www/html/wp-content/plugins/woocommerce/templates/loop/add-to-cart.php(32): WC_Product_Simple->add_to_cart_text()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1369): wc_get_template('loop/add-to-car...', Array)
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): woocommerce_template_loop_add_to_cart(Array)
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#9 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#11 /var/www/html/wp-content/themes/child-theme/woocommerce/archive-product.php(217): wc_get_template_part('content', 'product')
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-01-30T12:44:14+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_custom_addTo cart _text" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('Add to cart', Array)
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Add to cart', Object(WC_Product_Simple))
+#2 /var/www/html/wp-content/plugins/woocommerce/templates/loop/add-to-cart.php(32): WC_Product_Simple->add_to_cart_text()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1369): wc_get_template('loop/add-to-car...', Array)
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): woocommerce_template_loop_add_to_cart(Array)
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#9 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#11 /var/www/html/wp-content/themes/child-theme/woocommerce/archive-product.php(217): wc_get_template_part('content', 'product')
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-01-30T12:44:33+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_custom_addTo cart _text" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('Add to cart', Array)
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Add to cart', Object(WC_Product_Simple))
+#2 /var/www/html/wp-content/plugins/woocommerce/templates/loop/add-to-cart.php(32): WC_Product_Simple->add_to_cart_text()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1369): wc_get_template('loop/add-to-car...', Array)
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): woocommerce_template_loop_add_to_cart(Array)
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#9 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#11 /var/www/html/wp-content/themes/child-theme/woocommerce/archive-product.php(217): wc_get_template_part('content', 'product')
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-01-30T12:44:41+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_custom_addTo cart _text" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('Add to cart', Array)
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Add to cart', Object(WC_Product_Simple))
+#2 /var/www/html/wp-content/plugins/woocommerce/templates/loop/add-to-cart.php(32): WC_Product_Simple->add_to_cart_text()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1369): wc_get_template('loop/add-to-car...', Array)
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): woocommerce_template_loop_add_to_cart(Array)
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#9 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#11 /var/www/html/wp-content/themes/child-theme/woocommerce/archive-product.php(217): wc_get_template_part('content', 'product')
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-01-30T13:46:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_custom_addTo cart _text" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('Add to cart', Array)
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Add to cart', Object(WC_Product_Simple))
+#2 /var/www/html/wp-content/plugins/woocommerce/templates/loop/add-to-cart.php(32): WC_Product_Simple->add_to_cart_text()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1369): wc_get_template('loop/add-to-car...', Array)
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): woocommerce_template_loop_add_to_cart(Array)
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action('woocommerce_aft...')
+#9 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#10 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#11 /var/www/html/wp-content/themes/child-theme/woocommerce/archive-product.php(217): wc_get_template_part('content', 'product')
+#12 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-01-30T14:05:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "tutsplus_excerpt_in_product_archives" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/templates/content-product.php(57): do_action('woocommerce_aft...')
+#3 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#5 /var/www/html/wp-content/themes/child-theme/woocommerce/archive-product.php(155): wc_get_template_part('content', 'product')
+#6 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 308
+

@@ -1,0 +1,34 @@
+2023-02-01T13:13:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "truemisha_single_product_btn_text" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('Add to cart', Array)
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1924): apply_filters('woocommerce_pro...', 'Add to cart', Object(WC_Product_Simple))
+#2 /var/www/html/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php(49): WC_Product->single_add_to_cart_text()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1697): wc_get_template('single-product/...')
+#5 /var/www/html/wp-includes/class-wp-hook.php(308): woocommerce_simple_add_to_cart('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1688): do_action('woocommerce_sim...')
+#9 /var/www/html/wp-includes/class-wp-hook.php(308): woocommerce_template_single_add_to_cart('')
+#10 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /var/www/html/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action('woocommerce_sin...')
+#13 /var/www/html/wp-includes/template.php(785): require('/var/www/html/w...')
+#14 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/var/www/html/w...', false)
+#15 /var/www/html/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#16 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#17 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#18 /var/www/html/index.php(17): require('/var/www/html/w...')
+#19 {main}
+  thrown in /var/www/html/wp-includes/class-wp-hook.php on line 310
+
+2023-02-01T14:04:29+00:00 CRITICAL Uncaught Error: Call to a member function get_var() on null in /var/www/html/wp-content/themes/child-theme/woocommerce/archive-product.php:41
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/child-theme/woocommerce/archive-product.php on line 41
+

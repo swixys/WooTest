@@ -1,0 +1,20 @@
+.woocommerce-product-gallery {
+  display: flex;
+  flex-direction: row-reverse;
+  div{
+    width: 80%;
+  }
+  .flex-control-thumbs{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 0;
+    padding-right: 10px;
+    li{
+      width: 100%;
+    }
+  }
+}
+.woocommerce-product-rating{
+  margin-bottom: 20px!important;
+}
